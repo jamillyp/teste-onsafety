@@ -1,10 +1,10 @@
-## Getting Started
+## Começando
 
 Primeiro, instale as dependências do projeto:
 
 ```bash
 npm install
-# or
+# ou
 yarn install
 ```
 
@@ -12,11 +12,11 @@ Em seguida, execute o projeto:
 
 ```bash
 npm dev
-# or
+# ou
 yarn dev
-# or
+# ou
 pnpm dev
-# or
+# ou
 bun dev
 ```
 
