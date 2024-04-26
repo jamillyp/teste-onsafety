@@ -7,6 +7,12 @@ npm install
 # ou
 yarn install
 ```
+Você vai precisar adicionar as variáveis ambiente:
+
+1) crie um arquivo .env.local na raiz do projeto e defina os valores:
+
+NEXT_PUBLIC_BASE_URL= //base url da api da onsafety
+NEXT_PUBLIC_TOKEN=aqui //é a chave api que me foi fornecida
 
 Em seguida, execute o projeto:
 
