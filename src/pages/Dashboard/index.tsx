@@ -291,11 +291,9 @@ const Dashboard: React.FC = () => {
                 </> : <>
                     <Stack spacing={1}>
                         <Skeleton variant="rectangular" width={'100%'} height={70} animation="wave" />
-                        <Skeleton variant="text" sx={{ fontSize: '1rem', margin: '0' }} animation="wave" />
-                        <Skeleton variant="text" sx={{ fontSize: '1rem' }} animation="wave" />
-                        <Skeleton variant="text" sx={{ fontSize: '1rem' }} animation="wave" />
-                        <Skeleton variant="rounded" width={500} height={80} animation="wave" />
-                        <Skeleton variant="rounded" width={550} height={20} animation="wave" />
+                        <Skeleton variant="rounded" width={300} height={40} animation="wave" /> 
+                        <Skeleton variant="rounded" width={500} height={100} animation="wave" />
+                        <Skeleton variant="rounded" width={550} height={30} animation="wave" />
                         <Skeleton variant="rounded" width={'100%'} height={500} animation="wave" />
                     </Stack>
                 </>
